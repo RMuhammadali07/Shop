@@ -4,6 +4,7 @@ import Brend from '../../components/brend/Brend'
 import Top from '../../components/top/Top'
 import New from '../../components/new/New'
 import Design from '../../components/design/Design'
+import Customer from '../../components/customer/Customer'
 
 const Homes = () => {
   return (
@@ -14,6 +15,7 @@ const Homes = () => {
       <hr className='home-hr'/>
       <Top />
       {/* <Design /> */}
+      <Customer />
     </div>
   )
 }

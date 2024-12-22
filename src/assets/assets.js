@@ -66,6 +66,11 @@ export const assets =  {
     designImg3,
     designImg4,
     ptchka,
+    star3,
+    star35,
+    star4,
+    star45,
+    star5,
 }
 
 export const newProducts = [
