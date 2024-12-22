@@ -1,0 +1,100 @@
+footer {
+    background: #f0f0f0;
+    padding: 15px 100px;
+}
+
+footer .container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+footer .container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 270px;
+}
+
+.footer-logo,
+footer .container1 .company,
+footer .container1 .help,
+footer .container1 .faq,
+footer .container1 .resources{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer .container1 p,
+footer .container2 p{
+    color: #00000070;
+}
+
+footer hr {
+    margin: 30px 0;
+}
+
+.footer-bottom p {
+    position: relative;
+    top: 10px;
+}
+
+
+@media (max-width: 1073px) {
+    footer{
+        padding: 15px 50px;
+    }
+}
+
+@media (max-width: 910px) {
+    footer{
+        padding: 0;
+    }
+    footer .container1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row: 20px;
+        justify-content: center;
+        padding: 0 100px;
+    }
+    footer .container2{
+        padding: 0 100px;
+    }
+
+    .footer-logo,
+    footer .container1 .company,
+    footer .container1 .help,
+    footer .container1 .faq,
+    footer .container1 .resources{
+        padding-top: 25px;
+    }
+
+}
+
+@media (max-width: 810px) {
+    footer .container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer .container1{
+        grid-template-columns: 1fr 1fr;
+    }
+    footer .container1 .footer-logo{
+        grid-column: auto / span 2;
+    }
+}
+
+@media (max-width: 500px) {
+    footer .container1{
+        padding: 15px;
+    }
+}

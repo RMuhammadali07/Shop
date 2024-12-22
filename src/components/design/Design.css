@@ -1,0 +1,55 @@
+.design{
+    padding: 10px 100px;
+}
+
+.design-container {
+    background: #F0F0F0;
+    border-radius: 25px;
+}
+
+.design-heading h1{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.design-container .container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 100px;
+    gap: 15px;
+}
+
+.design-container .container img{
+    border-radius: 15px;
+}
+
+
+
+.design-container .container .img2 img,
+.design-container .container .img3 img{
+    width: 680px;
+}
+
+.design-container .container .img1 img,
+.design-container .container .img4 img {
+    width: 400px;
+}
+
+.design-container .container .img2{
+    position: relative;
+    right: 240px;
+}
+
+.design-container .container .img4 {
+    position: relative;
+    left: 50px;
+}
+
+.design-container .container h2{
+    position: relative;
+    bottom: 260px;
+    left: 30px;
+}

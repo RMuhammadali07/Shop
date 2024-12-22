@@ -1,0 +1,87 @@
+.new {
+    padding: 50px 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-heading h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.new .new-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.new .top-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin-top: 90px;
+}
+
+.new .products-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin-top: 90px;
+}
+
+.new .container .name{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.new .container div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.new .container .star{
+    padding: 2px 0;
+}
+
+.new .container .price{
+    font-size: 24px;
+}
+
+.new .container .chegFalse{
+    font-size: 24px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.new .container .foizFalse{
+    font-size: 12px;
+    color: #FF3333;
+    font-weight: 900;
+    background: #FF33331A;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.new .container .chegTrue{
+    display: none;
+}
+.new .container .foizTrue{
+    display: none;
+}
+
+.new .btn {
+    margin: 50px 10px 10px;
+    padding: 13px 60px;
+    border-radius: 30px;
+    border: 1px solid #888;
+    background: inherit;
+    cursor: pointer;
+}
+
+.new .btn2{
+    display: none;
+}
+

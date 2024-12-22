@@ -1,0 +1,78 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top .top-heading {
+    text-align: center;
+}
+
+.top .top-container,
+.top .new-container {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.top .products-container{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.top .container .name {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.top .container div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top .container .star {
+    padding: 2px 0;
+}
+
+.top .container .price {
+    font-size: 24px;
+}
+
+.top .container .chegFalse {
+    font-size: 24px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.top .container .foizFalse {
+    font-size: 12px;
+    color: #FF3333;
+    font-weight: 900;
+    background: #FF33331A;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.top .container .chegTrue {
+    display: none;
+}
+
+.top .container .foizTrue {
+    display: none;
+}
+
+.top .btn {
+    margin: 50px 10px 60px;
+    padding: 13px 60px;
+    border-radius: 30px;
+    border: 1px solid #888;
+    background: inherit;
+    cursor: pointer;
+}
+
+.top .btn2 {
+    display: none;
+}
