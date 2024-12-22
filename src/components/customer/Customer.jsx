@@ -11,7 +11,7 @@ const Customer = () => {
   return (
     <div className="customer">
       <div className="customer-heading">
-        <h1><b>salom</b></h1>
+
         <h1>OUR HAPPY CUSTOMERS</h1>
       </div>
       <div className="customer-container">
